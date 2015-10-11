@@ -1,0 +1,12 @@
+# Site settings
+title: Kumar Ayush
+email: cheekujodhpur@gmail.com
+description: "I am Kumar Ayush, an Engineering Physics sophomore at Indian Institute of Technology, Bombay. I love to cook, travel, socialize and tap into physical sciences. My mood is usually a superposition of psychopath, mad hatter, party animal and curious being and may collapse into any of these when you meet me. This is my personal homepage"
+baseurl: ""
+url: "http://cheekujodhpur.github.io"
+twitter_username: kumarayush4ever
+github_username:  cheekujodhpur
+
+# Build settings
+markdown: kramdown
+permalink: pretty
