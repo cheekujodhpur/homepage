@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-10-11 17:34:22
-categories: jekyll update
+title:  "Estimating Photometric Redshifts using Machine Learning Techniques"
+date:   2012-12-25 17:34:22
+categories: projects machine-learning astronomy
+weight: 100
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
