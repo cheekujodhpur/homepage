@@ -4,8 +4,16 @@ title: Projects
 permalink: /projects/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<div class="posts">
+    {% assign sorted_projects = (site.categories.projects | sort: 'weight') %}
+    {% for post in sorted_projects %}
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <h6>
+        {% for category in post.categories %}
+           {% if category != "projects" %}
+            {{ category }}<span style="color:red">.</span>&nbsp;&nbsp; 
+           {% endif %}
+        {% endfor %}
+        </h6>
+    {% endfor %}
+</div>
