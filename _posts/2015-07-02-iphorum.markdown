@@ -2,11 +2,12 @@
 layout: post
 title:  "IPhO-Rum, 46th IPhO"
 date:   2015-07-02 17:34:22
-categories: projects coding olympiad
+categories: projects web-development international-olympiad
 weight: 110
 ---
 
 <a></a>
-<p>what is ipho,india hosting</p>
-<p>academic meeting requirement</p>
-<p>my role</p>
+<p>The <a target="_blank" href="https://en.wikipedia.org/wiki/International_Physics_Olympiad">International Physics Olympiad (IPhO)</a> is an annual physics competition for high school students. It is one of the International Science Olympiads. The first IPhO was held in Warsaw, Poland in 1967.<br />
+In 2015, IPhO was held in Mumbai, India.</p>
+<p>The procedures involve international board meetings for discussions on question paper before it is presented to the participants et cetera. Leaders are also required to translate the question paper to their respective languages and submit to the host country. Vote on certain matters was taken by a show of hands, and files downloaded and uploaded via pendrives handled by volunteers. Discussions would require paper notes flowing through the hall.</p>
+<p>My role, in a team of 3, involved developing a browser-based application which would automate the entire process. The entire code and documentation for IPhOrum is a Github <a target="_blank" href="https://github.com/cheekujodhpur/ipho2015/">repository</a>.</p>
