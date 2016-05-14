@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "On DSLR-Description"
+date:   2016-05-03 18:20:00
+categories: 75dos misc skills
+weight: 1
+---
+
+<a></a>
+<p>I am in custody of the Canon EOS 700D camera owned by Krittika-Astronomy Club of IIT Bombay. I've always been able to have the IQ level to snap a picture from the camera required at social gatherings but have never been able to make sense of all the variety of features that it brings. </p>
+<p>I took an attempt to study the specifications of the camera and learn how to use it to get good pictures for specific situations</p>
+<p>The documentation can be found <a href="/media/75dos_dslr.pdf">here</a>.</p>

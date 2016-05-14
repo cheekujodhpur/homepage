@@ -2,6 +2,7 @@
 layout: page
 title: Talks
 permalink: /talks/
+heading: Talks
 ---
 
 <div class="posts">
