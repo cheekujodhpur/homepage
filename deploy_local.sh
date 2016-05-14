@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
 jekyll build
-cp -r build/* ../cheekujodhpur.github.io
+cp -r _site/* ../cheekujodhpur.github.io
