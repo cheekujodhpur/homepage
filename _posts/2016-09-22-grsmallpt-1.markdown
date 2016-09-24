@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "A black hole through the looking glass: Part 1"
+date:   2016-09-22 23:16:00
+categories: 75dos relativity graphics
+weight: 200
+---
+
+<a></a>
+<p>I assume you have seen <i>Interstellar</i>, the famed Nolan movie. Now having a black hole in the scene brings a natural question "How does a black hole look?" Well, a dark patch on the sky simply models the black hole, or more precisely, everything inside the Schwarschild radius of the BH. A more interesting question, then is to ask "How do things look around a black hole?" Even a law major would've come across enough popular science to know that light bends around a black hole. If you stretch your imagination, you can see objects getting distorted and being able to see things not in direct line of vision.</p>
+<p>If you want to be a bit accurate about all this and generate a CGI of how it'll really look, <a target = "_blank" href="https://arxiv.org/abs/1502.03809">this (arXiv 1502.03609)</a> is what was done for Interstellar. They describe it well enough that any one with a fair amount of knowledge of coding can try it out at home, and in fact explicitly encourage this for students.</p>
+<p>If you Google <i>black hole raytracing</i> or something similar, then you get a beautiful <a target = "_blank" href = "http://rantonels.github.io/starless/">code</a>. Frankly, I did not feel very good at seeing this. This does almost everything that I wanted to do, until I realized something about this and the other Relativistic Ray Tracing codes written for astrophysical research. They solve some metrics in some situations, and only take into account specific scattering models which do not help if I want to look at the situation out of an astrophysical scenario.</p>
+<p>I am sure I'd have left you pondering about what do I really want to do then over the last few sentences. I'll be exemplar in requesting you to imagine how would your face look if we're sitting across a table and there is a blackhole hovering between us. Yes, this probably does not have direct value to astroph research, but when you think about it, our faces can easily be replaced by accretion disks and the scattering model of reflection/refraction which is used in such scenarios can be replaced with an astrophysically relevant scattering model.</p>
+<p>And hence begins the journey of trying to see how would a black hole look if it were kept in your room.</p>
