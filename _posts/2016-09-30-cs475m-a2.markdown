@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "CS475m Assignment 2 Report"
+date:   2016-09-30 22:21:00
+categories: 75dos assignment graphics
+weight: 101
+---
+
+<a></a>
+<p><i>This was a group assignment and the report represents joint efforts of <br/><b>Keshav Srinivasan</b> (140260001) and <b>Kumar Ayush</b> (140260016)</i></p>
+<p>This report describes the hierarchical structure of the bicycle and contains some images from different viewpoints.</p>
+<h3>The hierarchical Structure</h3>
+<pre>
+- Frame -
+        |
+        - Back Wheel -
+                     |
+                     - Back Gear
+        - Seat
+        - Handle Rod - 
+                     |
+                     - Front Wheel
+                     - Handle
+        - Pedal Shaft -
+                      |
+                      - Pedals
+                      - Front Gear
+        - Gear Chain
+</pre>
+
+<h3>Commands you should use while running the program</h3>
+<ul>
+    <li>Use <i>k</i> for Side View Toggle</li>
+    <li>Use <i>v</i> for Top View Toggle</li>
+    <li>Use <i>h</i> and <i>H</i> for decreasing and increasing seat height respectively</li>
+    <li>Use <i>left</i> and <i>right</i> arrow keys to move front wheel</li>
+    <li>Use <i>top</i> and <i>bottom</i> arrow keys to move back wheel</li>
+    <li>Use <i>PgUp</i> and <i>PgDown</i> arrow keys to rotate handle</li>
+    <li>Use <i>x</i> and <i>X</i> to rotate pedals</li>
+</ul>
+
+<h3>Model Images</h3>
+<img alt="front" style="width:500px;border:solid 1px black;" src="/media/cs475ma2/front.png" /><br />
+<span style="font-size:16px;">Fig 1. Cycle Front View</span><br />
+
+<img alt="isometric" style="width:500px;border:solid 1px black;" src="/media/cs475ma2/isometric.png" /><br />
+<span style="font-size:16px;">Fig 2. Isometric View</span><br />
