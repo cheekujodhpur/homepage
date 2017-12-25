@@ -6,7 +6,8 @@ heading: Talks
 ---
 
 <div class="posts">
-    {% for post in site.talks %}
+    {% assign posts = site.talks | sort:'weight' | reverse %}
+    {% for post in posts %}
         <a></a>
         <h3 class="link_blue">{{ post.title }}</h3>
         <h6>

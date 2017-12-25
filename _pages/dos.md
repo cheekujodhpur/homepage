@@ -6,7 +6,7 @@ heading: 75 Days Of Summer
 ---
 
 <div class="posts">
-    {% assign dosposts = site.dos | sort:'weight' %}
+    {% assign dosposts = site.dos | sort:'weight' | reverse %}
         {% for post in dosposts %}
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <h6>
