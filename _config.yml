@@ -10,3 +10,11 @@ github_username:  cheekujodhpur
 # Build settings
 markdown: kramdown
 permalink: pretty
+include: ['_pages']
+collections:
+    dos:
+        output: true
+    projects:
+        output: true
+    talks:
+        output: true

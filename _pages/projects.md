@@ -6,7 +6,7 @@ heading: Projects
 ---
 
 <div class="posts">
-    {% for post in site.categories.projects | sort: 'weight' reversed %}
+    {% for post in site.projects %}
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <h6>
         {% for category in post.categories %}

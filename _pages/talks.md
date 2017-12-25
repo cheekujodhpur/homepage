@@ -6,7 +6,7 @@ heading: Talks
 ---
 
 <div class="posts">
-    {% for post in site.categories.talks | sort: 'weight' reversed %}
+    {% for post in site.talks %}
         <a></a>
         <h3 class="link_blue">{{ post.title }}</h3>
         <h6>
